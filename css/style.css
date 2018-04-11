@@ -94,6 +94,33 @@ margin-top: 3%;
 	-o-transform: translateY(4px);
 	transform: translateY(4px);
 }
+/* .main-nav-bar:hover .line::before {
+	-webkit-transform: rotate(-45deg);
+	-moz-transform: rotate(-45deg);
+	-ms-transform: rotate(-45deg);
+	-o-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+.main-nav-bar:hover .line::after {
+	-webkit-transform: rotate(45deg);
+	-moz-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	-o-transform: rotate(45deg);
+	transform: rotate(45deg);
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+.main-nav-bar:hover .line {
+	height: 0;
+} */
 .main-text {
 	text-align: center;
 	margin-top: 8%;
@@ -591,4 +618,44 @@ footer {
 
 @media (min-width: 1601px) {
 
+}
+
+.overlay-nav {
+	display: none;
+	position: fixed;
+	width: 100%;
+	height: 100vh;
+	top: 0;
+	left: 0;
+	background-color: rgba(0, 0, 0, 0.8);
+}
+.overlay-nav ul {
+	padding-top: 10%;
+	line-height: 2.5;
+	text-align: center;
+	list-style: none;
+}
+.overlay-nav li a {
+	color: #fff;
+	font-size: 36px;
+	-webkit-transition: all 0.2s;
+	-moz-transition: all 0.2s;
+	-ms-transition: all 0.2s;
+	-o-transition: all 0.2s;
+	transition: all 0.2s;
+}
+.overlay-nav li a:hover {
+	text-decoration: none;
+	color: #fc6744;
+
+}
+.close-nav {
+	position: fixed;
+	font-size: 50px;
+	top: 5%;
+	right: 5%;
+	color: #fff;
+}
+.close-nav:hover {
+	cursor: pointer;
 }

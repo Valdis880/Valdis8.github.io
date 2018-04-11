@@ -499,6 +499,17 @@
   </div>
 </div>
 
+<div class="overlay-nav">
+  <span class="close-nav">&times;</span>
+  <ul>
+    <li><a href="">Главная</a></li>
+    <li><a href="">Портфолио</a></li>
+    <li><a href="">Карты</a></li>
+    <li><a href="">Цены</a></li>
+    <li><a href="">Контакты</a></li>
+  </ul>
+</div>
+
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/slick.min.js"></script>
@@ -530,6 +541,18 @@
     ]
      });
   });
-	</script>
+  </script>
+  
+  <script>
+    $(document).ready(function() {
+      let $nav = $('a.main-nav-bar');
+      $nav.click(function() {
+        $('.overlay-nav').show(700);
+      })
+      $('.close-nav').click(function() {
+        $('.overlay-nav').hide(700);
+      })
+    })
+  </script>
   </body>
 </html>
