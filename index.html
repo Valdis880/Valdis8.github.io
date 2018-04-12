@@ -55,10 +55,10 @@
             <div class="main-form">
              <p class="main-form-header"><span>Sent</span> A Message</p>
               <form id="main-form" class="sent-form" action="mail.php" method="POST">
-              	<input type="text" name="user_name" placeholder="Your name">
+              	<input id="userName" type="text" name="user_name" placeholder="Your name">
               	<input type="email" name="email" required placeholder="Your Email">
               	<textarea rows="3" name="user_message" placeholder="Your Message"></textarea>
-              	<button class="main-form-btn" type="submit">Send Message <span>&rarr;</span></button>
+              	<button id="submit-form" class="main-form-btn" type="submit">Send Message <span>&rarr;</span></button>
               </form>
             </div>
           </div>
@@ -544,13 +544,13 @@
   </script>
   
   <script>
-    $(document).ready(function() {
+    $(document).ready( () => {
       let $nav = $('a.main-nav-bar');
-      $nav.click(function() {
-        $('.overlay-nav').show(700);
+      $nav.click( () => {
+        $('.overlay-nav').show();
       })
-      $('.close-nav').click(function() {
-        $('.overlay-nav').hide(700);
+      $('.close-nav').click( () => {
+        $('.overlay-nav').hide();
       })
     })
   </script>

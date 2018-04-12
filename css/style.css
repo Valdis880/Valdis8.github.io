@@ -94,7 +94,7 @@ margin-top: 3%;
 	-o-transform: translateY(4px);
 	transform: translateY(4px);
 }
-/* .main-nav-bar:hover .line::before {
+.main-nav-bar:hover .line::before {
 	-webkit-transform: rotate(-45deg);
 	-moz-transform: rotate(-45deg);
 	-ms-transform: rotate(-45deg);
@@ -120,7 +120,7 @@ margin-top: 3%;
 }
 .main-nav-bar:hover .line {
 	height: 0;
-} */
+}
 .main-text {
 	text-align: center;
 	margin-top: 8%;
@@ -659,3 +659,6 @@ footer {
 .close-nav:hover {
 	cursor: pointer;
 }
+
+
+
