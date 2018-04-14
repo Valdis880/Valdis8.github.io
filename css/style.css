@@ -540,12 +540,12 @@ footer {
 		font-size: 24px;
 	}
 	.main-form {
-		margin-top: 3%;
+		margin-top: -1%;
 		padding: 25px;
 	}
 	.main-form-btn {
-		font-size: 12px;
-		padding: 10px 25px;
+		font-size: 14px;
+		padding: 13px 30px;
 	}
 	.main-text {
 		margin-top: 12%;
@@ -557,11 +557,11 @@ footer {
 		font-size: 22px;
 	}
 	.main-form-header {
-		font-size: 12px;
+		font-size: 15px;
 		margin: 0px;
 	}
 	.main-form-header span {
-		font-size: 12px;
+		font-size: 15px;
 	}
 	input, textarea {
 		font-size: 12px;
