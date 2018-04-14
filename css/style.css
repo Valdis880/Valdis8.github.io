@@ -592,6 +592,36 @@ footer {
 }
 
 @media (min-width: 481px) and (max-width: 767px) {
+	.main-text h1 {
+		font-size: 28px;
+	}
+	.main-text h1 span {
+		font-size: 28px;
+	}
+	.main-text p {
+		font-size: 14px;
+	}
+	.main-form {
+		padding: 25px;
+		margin-top: 0%;
+	}
+	.main-form-header {
+		font-size: 18px;
+		margin-bottom: 0px;
+	}
+	.main-form-header span {
+		font-size: 18px;
+	}
+	input, textarea {
+		font-size: 14px;
+	}
+	.main-form-btn {
+		font-size: 14px;
+		padding: 13px 30px;
+	}
+	.main-form-btn span {
+		font-size: 16px;
+	}
 	.process-box {
 		margin-top: 0px;
 	}
