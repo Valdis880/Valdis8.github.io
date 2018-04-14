@@ -547,6 +547,9 @@ footer {
 		font-size: 14px;
 		padding: 13px 30px;
 	}
+	.main-form-btn span {
+		font-size: 14px;
+	}
 	.main-text {
 		margin-top: 12%;
 	}
